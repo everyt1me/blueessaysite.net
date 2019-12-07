@@ -1,0 +1,154 @@
+.container-fluid {
+    width: 100%;
+    height: 90px;
+    background-color: #03a9f4;
+}
+.logo {
+    margin-top: 15px;
+}
+.second {
+    margin-left: 10px;
+}
+.third {
+    margin-left: 0px;
+    padding: 0;
+}
+.burger {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.services {
+    width: 25%;
+    height: 30px;
+    background-color: #03a9f4;
+    border: none;
+    color: white;
+    margin-right: 25px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.services:nth-child(2) {
+    width: 27%;
+    margin-left: -25px;
+}
+.link-text {
+    margin-top: 36.5px;
+    margin-left: -15px;
+}
+.phone-icon {
+    color: white;
+    transform: rotate(90deg);
+    display: inline-block;
+    width: 36.5px;
+    height: 36.5px;
+    border: solid 2px white;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 16px;
+}
+.phone-icon:hover {
+    color: white;
+    border: solid 2px #f75e2e;
+    background-color: #0287c3;
+    cursor: pointer;
+}
+.phone-icon i {
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 8px;
+}
+.sign-in-button {
+    width: 100px;
+    background-color: #0287c3;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 23px;
+    margin-left: 55px;
+    padding: 10px 0px 8px 0px;
+    cursor: pointer;
+}
+.order-button {
+    width: 100px;
+    background-color: #f75e2e;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 23px;
+    margin-left: 10px;
+    padding: 10px 0px 8px 0px;
+    cursor: pointer;
+}
+.sign-in-button:hover {
+    color: #f75e2e;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.order-button:hover {
+    color: #0287c3;
+    box-shadow: 0 0 8px rgba(124, 40, 1, 0.7);
+}
+a:hover {
+    text-decoration: none;
+}
+
+.how-it-works {
+    width: 70px;
+    height: 54px;
+    border: solid 2px white;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: -44px;
+    left: 225px;
+    padding-top: 0px;
+}
+
+.how-it-works a {
+    padding-left: 15px;
+}
+
+.how-it-works a span {
+    padding-left: 13px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.how-it-works:hover {
+    background-color: #0287c3;
+    border-color: #f75e2e;
+}
+.lg-third {
+    padding-left: 7px;
+}
+.lg-third .btn {
+    width: 70px;
+    height: 50px;
+    margin-top: 18px;
+    padding-top: 17px;
+}
+.lg-second {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.lg-second .services {
+    width: 30%;
+}
+.lg-phone {
+    width: 72px;
+    height: 50px;
+    border: solid 2px white;
+    text-align: center;
+    display: inline-block;
+    margin-left: 0px;
+}
+.lg-phone:hover {
+    background-color: #0287c3;
+    border-color: #f75e2e;
+}
+.lg-third .sign-in-button {
+    margin-left: 10px;
+}
+.lg-third .burger {
+    margin-left: 12px;
+    padding: 0;
+    margin-bottom: 10px;
+}

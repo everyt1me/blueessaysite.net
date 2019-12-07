@@ -1,0 +1,165 @@
+
+.footer-fluid {
+    height: auto;
+    background-color: #03a9f4;
+    color: white;
+}
+.footer-articles, .under-footer {
+    border-bottom: solid 1px white;
+}
+
+.under-footer, .footer-articles, .footer-nav {
+    padding: 20px 0px;
+}
+
+.footer-nav {
+    padding: 0;
+}
+
+.footer-nav li {
+    margin: 0;
+    border: none;
+    margin-top: 25px;
+    margin-left: 5px;
+    padding: 0;
+    width: 87px;
+}
+
+.footer-nav li:hover {
+    color:#fa9e82;
+    border: none;
+}
+
+hr {
+    width: 95%;
+}
+
+.footer-articles .col-3:nth-child(1) {
+    padding-left: 0;
+}
+
+.footer-articles article {
+    margin-bottom: 25px;
+}
+
+.under-footer {
+    margin-top: 25px;
+}
+
+.under-footer article:nth-child(1) {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.under-footer a {
+    text-decoration: none;
+}
+
+.social {
+    padding: 0px 10px;
+}
+
+.social div {
+    width: 35px;
+    height: 35px;
+    border: solid 1px white;
+    border-radius: 50%;
+    color: white;
+    position: relative;
+}
+
+.social div:hover {
+    color: white;
+    border: solid 1px white;
+    background-color: #0287c3;
+    cursor: pointer;
+}
+
+.social i {
+    display: inline-block;  
+    position: absolute;
+    top: 9px;
+    left: 8px;
+}
+
+i {
+    font-size: 18px;
+}
+
+.fa-facebook-f {
+    margin-left: 3px;
+}
+
+.fa-google-plus-g {
+    margin-left: -2px;
+}
+
+.phonebook {
+    width: 35px;
+    height: 35px;
+    background-color: #03a9f4;
+    border-radius: 50%;
+    color: #03a9f4;
+    text-align: center;
+    position: relative;
+    padding-top: 1px;
+}
+
+p span {
+    font-weight: 900;
+}
+
+.footer-nav-lg li {
+    border-bottom: solid 1px white;
+    text-align: center;
+    margin-top: 41.5px;
+    margin-bottom: 25px;
+}
+
+.footer-nav-lg li:nth-child(1) {
+    margin-left: -30px;
+}
+
+.under-footer-lg {
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.footer-articles-lg {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer-articles-lg article:nth-child(1) {
+    padding-left: 0;
+}
+
+.footer-articles-lg article:nth-child(4) {
+    padding-right: 0;
+}
+
+.social-icon-lg {
+    padding: 0;
+}
+
+.footer-end {
+    padding-right: 0;
+}
+
+.footer-end .phonebook p {
+    font-size: 12px;
+}
+
+.footer-end img {
+    margin-left: -5px;
+}
+
+.footer-articles-lg h5 {
+    margin-bottom: 25px;
+}
+
+.footer-articles-lg p {
+    font-size: 12px;
+}

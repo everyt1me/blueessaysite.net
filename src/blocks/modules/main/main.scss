@@ -1,0 +1,949 @@
+h1 {
+    @include fonts(36px, Poppins, 900, #03a9f4);
+    margin-top: 130px;
+}
+
+h1:nth-child(2) {
+    @include fonts(36px, Poppins, 900, #323538);
+    margin-top: 0px;
+}
+
+h2 {
+    @include fonts(18px, Poppins-Medium, 700, #000);
+}
+
+h2 span {
+    @include fonts(33px, Poppins-Medium, 700, #000);
+}
+
+h3 {
+    @include fonts(27px, Poppins-Medium, 700, #000);
+}
+
+h4 {
+    @include fonts(22px, Poppins-Medium, 700, #000);
+}
+
+h5 {
+    @include fonts(17px, Poppins-Medium, 400, #000);
+}
+
+h6 {
+    @include fonts(15px, Poppins-Medium, 400, #000);
+}
+
+h6 span {
+    @include fonts(15px, Poppins-Regular, 400, #138fc7); 
+}
+
+p {
+    @include fonts(14px, Poppins-Medium, 400, #000);
+}
+
+.btn {
+    @include fonts(12px, Poppins-Medium, 400, #ffffff);
+}
+
+.link-text {
+    @include fonts(12px, Poppins-SemiBold, 400, #ffffff);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.link-text:hover {
+    @include fonts(12px, Poppins-SemiBold, 400, #fa614d);
+    text-transform: uppercase;
+}
+
+.services {
+    @include fonts(12px, Poppins-SemiBold, 400, #ffffff);
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.services:hover {
+    @include fonts(12px, Poppins-SemiBold, 400, #fa614d);
+}
+
+option {
+    @include fonts(12px, Poppins-SemiBold, 400, #ffffff);
+    text-transform: uppercase;
+}
+
+.line-1, .line-2, .line-3, .line-4, .line-5, .line-6 {
+    @include fonts(16px, Poppins-Regular, 400,#656a70); 
+}
+
+#placeholder-text {
+    @include fonts(16px, Poppins-Regular, 400,#656a70); 
+}
+
+.placeholders input {
+    @include fonts(15px, Myriad-Pro, 400,#656a70);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.placeholders select {
+    @include fonts(15px, Myriad-Pro, 400,#656a70);
+    text-align: center;
+}
+
+.section-two h2 {
+    @include fonts(28px, Poppins, 600, #323538);
+    margin: 20px 0px;
+    padding-right: 50px;
+}
+
+.section-two h3 {
+    @include fonts(24px, Poppins-Medium, 400, #138fc7);
+    margin-top: -175px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.section-two h3:hover {
+    @include fonts(24px, Poppins-Medium, 400, #fa614d);
+    text-transform: uppercase;
+}
+
+.section-two p {
+    @include fonts(14px, Poppins-Medium, 400, #323538);
+}
+
+.advantages-icon h3, .sec4 h3{
+    @include fonts(16px, Poppins-Medium, 600, #323538);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.advantages-icon p, .section-four p {
+    @include fonts(14px, Poppins-Regular, 400, #51555a);
+    text-align: center;
+}
+
+.section-three h2, .section-five h2 {
+    @include fonts(33px, Poppins-Medium, 600, #ffffff);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-four h2, .section-six h2 {
+    @include fonts(33px, Poppins-Medium, 600, #323538);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-three h6, .section-five h6 {
+    @include fonts(14px, Poppins-Regular, 400, #ffffff);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.section-four h6, .section-six h6 {
+    @include fonts(14px, Poppins-Regular, 400, #0287c3);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.section-five h5 {
+    @include fonts(18px, Poppins-Medium, 200, #ffffff);
+    text-align: center;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.section-five3 h4 {
+    @include fonts(36px, Poppins, 900, #f75e2e);
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-left: -10px;
+    text-align: center;
+}
+
+.section-five3 p {
+    @include fonts(14px, Poppins-Regular, 600, #51555a);
+    text-align: center;
+    margin-left: 0px;
+    padding-top: 5px;
+}
+
+.section-five3 h3 {
+    @include fonts(16px, Poppins-SemiBold, 600, #0287c3);
+    text-align: center;
+    margin-top: -10px;
+}
+
+.discounts h3 {
+    @include fonts(24px, Poppins-semibold, 600, #ffffff);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 25px 30px 0px 30px;
+    text-indent: 15px;
+    line-height: 34px;
+    cursor: pointer;
+}
+
+.discounts h3:hover {
+    color: #e2f55d;
+    transition: 0.6s linear;
+}
+
+.discounts p {
+    @include fonts(19px, Open-Sans, 400, #ffffff);
+    text-align: left;
+    padding-top: 18px;
+    padding-left: 16px;
+}
+
+.coupon h4 {
+    @include fonts(22px, Poppins-Medium, 400, #ffffff); 
+}
+
+.coupon h3 {
+    @include fonts(68px, Poppins, 900, #e2f55d);
+    text-align: center;
+    text-indent: 0;
+    line-height: 54px;
+    margin-top: -32px;
+    margin-left: -10px;
+    cursor: default;
+}
+
+.coupon h5 {
+    @include fonts(12px, Poppins-Medium, 200, #ffffff);
+    text-align: center;
+}
+
+#myCarousel h5 {
+    @include fonts(18px, Poppins-Light, 600, #0287c3);
+    text-align: center;
+}
+
+#myCarousel p {
+    @include fonts(10px, Poppins-Light, 400, #51555a);
+    text-align: center;
+}
+
+#myCarousel p span {
+    @include fonts(14px, Poppins-Light, 200, #a3a6a9);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.glyphicon {
+    color: #03a9f4;
+}
+
+.item p {
+    padding: 0px 270px 40px 270px;
+}
+
+.carousel-control.right,.carousel-control.left {
+    background: none;
+}
+
+.footer-nav li {
+    @include fonts(14px, Poppins-Medium, 200, #ffffff);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer-articles h5 {
+    @include fonts(21px, Poppins-Medium, 400, #ffffff);
+    margin: 30px 0px;
+}
+
+.footer-articles p {
+    @include fonts(14px, Poppins-Regular, 400, #ffffff);
+}
+
+.under-footer p {
+    @include fonts(14px, Museo-Sans-500, 400, #ffffff);
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.footer-articles-lg h5 {
+    @include fonts(21px, Poppins-Medium, 400, #ffffff);
+    margin: 0px;
+}
+
+.footer-articles-lg p {
+    @include fonts(14px, Poppins-Regular, 400, #ffffff);
+}
+
+.phonebook-lg p {
+    @include fonts(12px, Museo-Sans-500, 400, #ffffff);
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.footer-end p {
+    @include fonts(12px, Museo-Sans-500, 400, #ffffff);
+    padding-left: 0;
+    margin-left: 15px;
+}
+
+.main-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.main-one {
+    background-color: #e6f7fe;
+    height: 620px;
+    background-image: url(../../../img/bg-1.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding: 0;
+}
+
+.main-two {
+    background-color: #ffffff;
+    height: 600px;
+    padding: 0;
+}
+
+.main-three {
+    background-color: #03a9f4;
+    background-image: url(../../../img/bg-2.png);
+    height: 650px;
+    padding: 0;
+}
+
+.main-four {
+    background-color: #ffffff;
+    height: 520px;
+    padding: 0;
+}
+
+.main-five {
+    background-color: #03a9f4;
+    height: 600px;
+    background-image: url(../../../img/bg-3.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding: 0;
+}
+.main-six {
+    background-color: #ffffff;
+    height:705px;
+    padding: 0;
+}
+
+.section-two article:nth-child(2) {
+    margin-top: 120px;
+}
+
+.advantages-icon {
+    display: block;
+    width: 340px;
+    height: 300px;
+    background-color: #ffffff;
+    padding: 35px 35px;
+    margin: 40px 0px 30px 0px;
+}
+
+.advantages-h3 {
+    margin-left: 20px;
+}  
+
+.advantages .col-4 {
+    padding: 0;
+}
+
+.section-four {
+    padding: 10px 0px 25px 0px;
+}
+
+.section-four .col-3 {
+    height: 210px;
+    margin-top: 25px;
+    padding: 29px;
+    text-align: center;
+    border-right: solid 1px #c7ecff;
+    position: relative;
+}
+
+.section-four .col-3:nth-child(4) {
+    border-right: none; 
+}
+
+.section-four span {
+    display: inline-block;
+    margin-top: -18px;
+    position: absolute;
+    width: 173px;
+    margin-left: -86px;
+}
+
+.section-five2 {
+    height: 500px;
+    width: 100%;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+    margin-top: 150px;
+    background-color: #ffffff;
+    padding-right: 0;
+    cursor: pointer;
+}
+
+.section-five3 div {
+    width: 45%;
+    height: 36%;
+    border: solid 1px #e1e1e7;
+    padding: 0px 51px;
+}
+
+.section-five3 div:nth-child(1) {
+    border-top: none;
+    border-left: none;
+    margin-top: 14%;
+    margin-left: 5%;
+}
+
+.section-five3 div:nth-child(2) {
+    border-top: none;
+    border-right: none;
+    margin-top: 14%;
+    margin-right: 5%;
+}
+
+.section-five3 div:nth-child(3) {
+    border-bottom: none;
+    border-left: none;
+    margin-bottom: 14%;
+    margin-left: 5%;
+    padding-top: 25px;
+}
+
+.section-five3 div:nth-child(4) {
+    border-bottom: none;
+    border-right: none;
+    margin-bottom: 14%;
+    margin-right: 5%;
+    padding-top: 25px;
+}
+
+.section-five4 {
+    background-color: #03a9f4;
+    padding: 25px;
+}
+
+.discounts {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: dashed 3px #0287c3;
+    border-radius: 5%;
+}
+
+.coupon {
+    display: block;
+    position: relative;
+    width: 85%;
+    height: 50%;
+    border: dashed 3px #ffffff;
+    border-radius: 5%;
+    background-color: #0287c3;
+    margin: 25px auto;
+    padding: 30px 55px;
+}
+
+.section-six {
+    padding-top: 210px;
+}
+
+.girl-one {
+    display: block;
+    position: relative;
+    opacity: 1;
+    z-index: 2;
+    margin-top: 80px;
+    margin-left: 0px;
+}
+
+.girl-two {
+    display: block;
+    position: absolute;
+    opacity: 0.3;
+    top: 80px;
+    left: 25px;
+    z-index: 1;
+}
+
+.section-two img {
+    margin-bottom: -150px;
+    margin-left: 85px;
+}
+
+.welcome-bg {
+    margin-top: 120px;
+    margin-left: 30px;
+    padding-top: 50px;
+    display: block;
+    width: 460px;
+    height: 400px;
+    background-color: #e6f7fe;
+}
+
+.d40 {
+    width: 0; 
+    height: 0;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 44px;
+    background: #f75e2e;
+    border-left-color: #fa9e82;
+    border-top-color: #fa9e82;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(-45deg);
+    margin-left: 35%;
+}
+
+.advantages-icon img {
+    transform: rotate(45deg);
+    margin-left: -46px;
+    margin-top: -22px;
+}
+
+.section-four div img {
+    margin: 0px;
+}
+
+.border-triangle {
+    width: 35px; 
+    height: 35px;
+    border-top: solid 1px #c7ecff;
+    border-left: solid 1px #c7ecff;
+    border-bottom: none;
+    border-right: none;
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    top: 85px;
+    left: 253px;
+    transform: rotate(135deg);
+}
+
+.main-four .section-four p span {
+    font-weight: 200;
+    margin-top: -13px;
+}
+
+.scisors {
+    display: block;
+    position: absolute;
+    top: -16px;
+    left: -15px;
+}
+
+.stars {
+    display: block;
+    position: absolute;
+    top: -15px;
+    left: 193px;
+}
+
+.balloon {
+    display: block;
+    position: absolute;
+    top: 185px;
+    left: 242px;
+}
+
+.clientcircle {
+    height: 65px;
+    width: 65px;
+    background-color: #e2f55d;
+    border-radius: 50%;
+    margin: 50px auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.clientcircle img {
+    margin-top: 10px;
+}
+
+.line {
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 5px;
+}
+
+li {
+    display: inline-block;
+    border-bottom: solid 2px #656a70;
+    cursor: pointer;
+    width: 75px;
+    margin-left: -5px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+
+li:hover {
+    border-bottom: solid 2.2px #f75e2e;
+}
+
+li:hover .line-1 {
+    opacity: 1;
+}
+
+li:hover .line-2 {
+    opacity: 1;
+    left: -74.5px;
+}
+
+li:hover .line-3 {
+    opacity: 1;
+    left: -149px;
+}
+
+li:hover .line-4 {
+    opacity: 1;
+    left: -223px;
+}
+
+li:hover .line-5 {
+    opacity: 1;
+    left: -298px;
+}
+
+li:hover .line-6 {
+    opacity: 1;
+    left: -372.5px;
+}
+
+.line-1, .line-2, .line-3, .line-4, .line-5, .line-6 {
+    display: inline-block;
+    opacity: 0; 
+    position: relative;
+    top: 95px;
+    width: 450px;
+}
+
+.line-all {
+    display: inline-block;
+}
+
+.place-an-order {
+    width: 180px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: -10px;
+    padding-top: 17px;
+}
+
+.forms {
+    padding: 0;
+}
+
+.placeholders {
+    margin-top: -15px;
+    height: 180px;
+    background-color: #03a9f4;
+    opacity: 0.8;
+    padding: 0px 40px;
+}
+
+.placeholders input {
+    width: 250px;
+    height: 40px;
+    padding-top: 17px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.placeholders select {
+    width: 250px;
+    height: 40px;
+    padding-top: 17px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+} 
+
+.continue-button {
+    width: 230px;
+    height: 40px;
+    margin-left: 0;
+    margin-top: 70px;
+    padding-top: 11px;
+}
+
+.placeholders label {
+    color: #ffffff;
+    margin-left: -295px;
+    margin-top: 35px;
+}
+
+#placeholder-text {
+    padding: 6px;
+}
+
+.main-three .btn {
+    width: 250px;
+    margin-left: 38%;
+    text-transform: initial;
+    padding: 13px 0px;
+}
+
+.plus, .minus {
+    height: 38px;
+    width: 38px;
+    border: solid 1px #d8dadb;
+    position: relative;
+    text-align: center;
+    padding-top: 8px;
+    color: #656a70;
+    font-size: 14px;
+}
+
+.plus, .minus:hover {
+    cursor: pointer;
+}
+
+.plus {
+    top: -77px;
+    left: 755px;
+    background-color: #ffffff;
+    opacity: 2;
+}
+
+.minus {
+    top: -39.5px;
+    left: 623px;
+    background-color: #ffffff;
+    opacity: 2;
+}
+
+.main-one-lg {
+    background-color: #e6f7fe;
+    height: 620px;
+    background-image: url(../../../img/bg-1.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding: 0;
+}
+
+.main-two-lg {
+    background-color: #ffffff;
+    height: 600px;
+    padding: 0;
+}
+
+.main-three-lg {
+    background-color: #03a9f4;
+    background-image: url(../../../img/bg-2.png);
+    height: 650px;
+    padding: 0;
+}
+
+.main-four-lg {
+    background-color: #ffffff;
+    height: 520px;
+    padding: 0;
+}
+
+.main-five-lg {
+    background-color: #03a9f4;
+    height: 530px;
+    background-image: url(../../../img/bg-3.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding: 0;
+}
+
+.main-six-lg {
+    background-color: #ffffff;
+    height:725px;
+    padding: 0;
+}
+
+.main-one-lg h2, .main-two-lg h2, .main-three-lg h2, .main-four-lg h2, .main-five-lg h2, .main-six-lg h2 {
+    font-size: 22px;   
+}
+.main-one-lg h6, .main-two-lg h6 span, .main-three-lg h6, .main-four-lg h6, .main-five-lg h6, .main-six-lg h6 {
+    font-size: 12px; 
+}
+
+.main-one-lg .section-one h1 {
+    font-size: 30px;
+}
+
+.main-one-lg .section-one img {
+    margin-left: 0px;
+}
+
+.girl-two {
+    display: block;
+    position: absolute;
+    opacity: 0.3;
+    top: 80px;
+    left: 23px;
+    z-index: 1;
+}
+
+.main-one-lg .place-an-order {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    line-height: 85px;
+}
+
+.placeholders-lg {
+    width: 100%;
+    margin: 0px;
+    margin-top: -15px;
+    height: 170px;
+    background-color: #03a9f4;
+    opacity: 0.8;
+    padding: 40px 20px;
+}
+
+.placeholders-lg input{
+    width: 180px;
+    height: 40px;
+    padding-top: 0px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 0;
+    padding-left: 0;
+}
+.placeholders-lg select {
+    width: 180px;
+    height: 40px;
+    padding-top: 17px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 0;
+    padding-left: 0;
+} 
+
+.placeholders-lg .continue-button {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 0;
+    padding: 0;
+    border-radius: 50%;
+    line-height: 80px;
+}
+
+.placeholders-lg #placeholder-text {
+    padding: 0;
+}
+
+.main-one-lg.main-three .btn {
+    width: 250px;
+    margin-left: 38%;
+    text-transform: initial;
+    padding: 13px 0px;
+}
+
+.placeholders-lg .minus, .plus {
+    height: 38.5px;
+    width: 38px;
+    border: solid 1px #d8dadb;
+    position: relative;
+    text-align: center;
+    padding-top: 8px;
+    color: #656a70;
+    font-size: 14px;
+}
+
+.main-one-lg.minus, .plus:hover {
+    cursor: pointer;
+}
+
+.main-one-lg .placeholders-lg .minus {
+    top: -60px;
+    left: 596px;
+    background-color: #ffffff;
+    opacity: 2;
+}
+
+.main-one-lg .placeholders-lg .plus {
+    top: -98.5px;
+    left: 706px;
+    background-color: #ffffff;
+    opacity: 2;
+}
+
+.main-two-lg .welcome-bg {
+    width: 400px;
+}
+
+.main-two-lg .welcome-bg img {
+    margin-left: 60px;
+}
+
+.main-two-lg p{
+    font-size: 12px;
+}
+
+.main-three-lg .btn {
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    line-height: 87px;
+    margin-top: 5px;
+    margin-left: 46%;
+}
+
+.main-three-lg p {
+    font-size: 12px;
+    padding: 0 25px;
+}
+
+.main-four-lg .section-four .border-triangle {
+    width: 35px;
+    height: 35px;
+    border-top: solid 1px #c7ecff;
+    border-left: solid 1px #c7ecff;
+    border-bottom: none;
+    border-right: none;
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    top: 85px;
+    left: 207px;
+    transform: rotate(135deg);
+}
+
+.main-four-lg .section-four p {
+    font-size: 12px;
+}
+
+.main-four-lg .section-four p span{
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: -10px;
+}
+
+.main-five-lg .section-five2 {
+    margin-top: 100px;
+} 
+
+
+
+
